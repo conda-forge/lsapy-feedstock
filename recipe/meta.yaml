@@ -1,13 +1,13 @@
 {% set name = "lsapy" %}
-{% set version = "0.4.0" %}
+{% set version = "0.5.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/lsapy-{{ version }}.tar.gz
-  sha256: f7f716f09b09508275a1ff907ad0d75b01c1dce22e92f566c0323b4da437f592
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/lsapy-{{ version }}.tar.gz
+  sha256: c31414b267db22f67c93fb19e127070146d570b083168e30b4795aee092f820e
 
 build:
   noarch: python
